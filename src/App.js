@@ -1,6 +1,4 @@
-import './App.css';
-import React, { useState, useEffect } from 'react'
-
+import './App.css'
 
 function App() {
 
@@ -9,9 +7,16 @@ function App() {
 
   return (
     <div className="App">
-      <embed className='pdf' height={height} width={width} src="https://s3-bucket-cfp.s3.us-east-2.amazonaws.com/apps_CFPVD.pdf" />
+      <iframe
+       className='pdf' 
+       height={height} 
+       width={width}
+      src="https://s3-bucket-cfp.s3.us-east-2.amazonaws.com/apps_CFPVD.pdf"
+      frameBorder="0"
+      scrolling="auto"
+      />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
