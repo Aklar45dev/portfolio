@@ -11,7 +11,7 @@ function App() {
        className='pdf' 
        height={height} 
        width={width}
-      src="https://s3-bucket-cfp.s3.us-east-2.amazonaws.com/apps_CFPVD.pdf"
+      src="https://cfpvd.s3.ca-central-1.amazonaws.com/apps_CFPVD.pdf"
       frameBorder="0"
       scrolling="auto"
       />
